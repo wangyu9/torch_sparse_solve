@@ -47,7 +47,7 @@ setup(
     description=torch_sparse_solve.__doc__,
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/flaport/torch_sparse_solve",
+    url="https://github.com/wangyu9/torch_sparse_solve",
     py_modules=["torch_sparse_solve"],
     ext_modules=[torch_sparse_solve_cpp],
     cmdclass={"build_ext": cpp_extension.BuildExtension},
